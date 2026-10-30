@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int option,N,total_bill=0,grand_total,gst;
+    int option,N,total_bill=0;
+    float grand_total,gst;
     int item1=0,item2=0,item3=0,item4=0,item5=0,item6=0,item7=0,item8=0,item9=0,item10=0,item11=0,item12=0;
 
     printf("\n----------------------Welcome To Dhana 's Cloud Kitchen-------------------------\n");
@@ -164,7 +165,7 @@ do
     gst=total_bill*0.18;
     grand_total = total_bill + gst;
 
-    printf("final total -> %d\n",grand_total);
+    printf("final total -> %.2f\n",grand_total);
 
     
     printf("Thank YOU VISIT AGAIN\n");
